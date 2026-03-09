@@ -1,0 +1,101 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:Eastern Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T020000
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=1SU;BYMONTH=11
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T020000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=2SU;BYMONTH=3
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN="Hirtzel, Hannah":mailto:hhirtzel@yearupunited.org
+ATTACH:CID:6F3389D96A7FDC47AA4BB1E4524C7352@namprd04.prod.outlook.com
+DESCRIPTION;LANGUAGE=en-US:\n________________________________\nFrom: Hirtze
+ l\, Hannah <hhirtzel@yearupunited.org>\nSent: Thursday\, March 5\, 2026 9:
+ 36:26 PM (UTC-05:00) Eastern Time (US & Canada)\nTo: Yurchuk\, Greg <GYurc
+ huk@YearUpUnited.org>\; Leonard\, Bret <bleonard@yearupunited.org>\; Sise\
+ , Karamba <KSise@yearupunited.org>\; Coleman\, Diane <dcoleman01@yearupuni
+ ted.org>\nCc: Jones\, Linzey <ljones@yearupunited.org>\nSubject: Year Up U
+ nited | New York Corporate Partner Day - Partner Confirmation\nWhen: Tuesd
+ ay\, April 14\, 2026 9:00 AM-1:30 PM.\nWhere: 85 Broad St\, New York\, NY 
+ 10004\, United States\n\nHello! Thank you for registering for corporate pa
+ rtner day! We look forward to welcoming you into our space at 85 Broad Str
+ eet\, 6th Floor\, Lower Manhattan\, New York\, NY 10004\nA Year Up United 
+ team member will be at a table in the lobby to help expedite your security
+  check-in. Please plan to bring a valid photo ID just in case it is reques
+ ted by building security.\nEvent Agenda\n9:00 AM — Check-In & Continenta
+ l Breakfast Arrive\, connect\, and get settled before the program begins.\
+ n9:30 AM — Opening Remarks Welcome from Year Up United leadership.\n9:40
+  AM — Elevator Pitch Competition Watch participants compete across all t
+ hree Career Pathways.\n10:20 AM — Manager\, Intern & Alumni Panel Real p
+ erspectives on impact\, upskilling\, and what makes partnerships work.\n11
+ :05 AM — Speed Networking Engage directly with talent\, fellow employers
+ \, and Year Up staff.\n12:10 PM — Light Refreshments & Partner Honors Ce
+ lebrate your impact and connect with the community you have helped build.\
+ nReview the full agenda and event details: www.partnerwithyearupunited.org
+ <http://www.partnerwithyearupunited.org>\nReady to explore a partnership o
+ r discuss open roles? Complete our interest form<https://airtable.com/appB
+ XQGCGax13Uvmw/pagE4cxVKYwMskDBV/form> before the event so we can connect y
+ ou with the right person on our team.\nQuestions? Reply to this invitation
+  or reach out to hhirtzel@yearupunited.org<mailto:hhirtzel@yearupunited.or
+ g>.\nWe look forward to seeing you on April 14th.\nThe NY/NJ/CT Corporate 
+ Engagement Team Year Up United | www.yearupunited.org<http://www.yearupuni
+ ted.org>\n\n\n
+UID:040000008200E00074C5B7101A82E008000000007395650712ADDC01000000000000000
+ 0100000001DFE351B7600814DBB8202BCA3967B5F
+SUMMARY;LANGUAGE=en-US:FW: Year Up United | New York Corporate Partner Day 
+ - Partner Confirmation 
+DTSTART;TZID=Eastern Standard Time:20260414T090000
+DTEND;TZID=Eastern Standard Time:20260414T133000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260306T045146Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION;LANGUAGE=en-US:85 Broad St\, New York\, NY 10004\, United States
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-OWNERAPPTID:2124622451
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:TRUE
+X-MICROSOFT-LOCATIONDISPLAYNAME:85 Broad St
+X-MICROSOFT-LOCATIONSOURCE:LocationServices
+X-MICROSOFT-LOCATIONURI:https://www.bingapis.com/api/v6/geoentities?streeta
+ ddress=85+Broad+St&locality=New+York&region=NY&postalcode=10004&country=Un
+ ited+States&setlang=en-us&count=1
+X-MICROSOFT-LOCATIONSTREET:85 Broad St
+X-MICROSOFT-LOCATIONCITY:New York
+X-MICROSOFT-LOCATIONSTATE:NY
+X-MICROSOFT-LOCATIONCOUNTRY:United States
+X-MICROSOFT-LOCATIONPOSTALCODE:10004
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"85 Broad St"\,"LocationAnnotation":"
+ "\,"LocationSource":1\,"LocationUri":"https://www.bingapis.com/api/v6/geoe
+ ntities?streetaddress=85+Broad+St&locality=New+York&region=NY&postalcode=1
+ 0004&country=United+States&setlang=en-us&count=1"\,"LocationStreet":"85 Br
+ oad St"\,"LocationCity":"New York"\,"LocationState":"NY"\,"LocationCountry
+ ":"United States"\,"LocationPostalCode":"10004"\,"LocationFullAddress":""}
+ ]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
